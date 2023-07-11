@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Cars', 'Dinosaurs', 'Ships']
+
+roboflow:
+  workspace: bogazici-university-hyulo
+  project: inovako-m7j2u
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bogazici-university-hyulo/inovako-m7j2u/dataset/2
